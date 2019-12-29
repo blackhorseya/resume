@@ -1,3 +1,7 @@
 /resume.aux
 /resume.out
 /resume.pdf
+*.fdb_latexmk
+*.fls
+*/__latexindent_temp.tex
+
