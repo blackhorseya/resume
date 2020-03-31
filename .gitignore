@@ -1,6 +1,6 @@
 /resume.aux
 /resume.out
-/resume.pdf
+# /resume.pdf
 *.fdb_latexmk
 *.fls
 */__latexindent_temp.tex
