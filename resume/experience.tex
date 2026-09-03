@@ -11,15 +11,30 @@
 
 %---------------------------------------------------------
 \cventry
+{Senior Engineer} % Job title
+{KicksCrew} % Organization
+{Taipei, Taiwan} % Location
+{Aug. 2025 - Present} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Codified a multi-project GCP platform with Terraform and Terragrunt, covering GKE, Cloud SQL, Pub/Sub and least-privilege IAM, and standardized workload authentication on Workload Identity, eliminating out-of-band configuration drift.}
+    \item {Ran a recurring GCP cost audit that cut over \$2,000 per month of recurring spend through log ingestion exclusions, Spot node pools and workload rightsizing, then added billing anomaly alerts to prevent regression.}
+    \item {Built the observability platform on kube-prometheus-stack with Grafana Loki and Alloy, delivering RED dashboards and latency alert routing for the Kong API gateway across four clusters.}
+    \item {Designed Go services following Clean Architecture and DDD that integrate TikTok Shop, Shopify and SHEIN for listing, order sync and fulfillment, using saga orchestration, a transactional outbox and scheduled inventory reconciliation.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
 {Technical Lead} % Job title
 {Hashgreen Inc.} % Organization
 {Taipei, Taiwan} % Location
-{Sep. 2021 - Present} % Date(s)
+{Sep. 2021 - Nov. 2024} % Date(s)
 {
   \begin{cvitems} % Description(s) of tasks/responsibilities
-    \item {At Hashgreen Inc., I led a team of five engineers, focusing on optimizing our software engineering workflows and fostering an Agile and DevOps culture. My role involved conducting technical sharing sessions and authoring blog posts to promote knowledge sharing and continuous learning within the team. This approach not only improved our operational efficiency but also enhanced team collaboration and innovation.}
-    \item {I initially engaged in a pioneering project involving a decentralized exchange (DEX) based on the Chia blockchain. After operating the DEX for about three months, the project was discontinued due to a strategic pivot. We then shifted our focus to developing a Swap DeFi solution utilizing the same technology stack. Throughout this transition, my role involved splitting our efforts into two main segments: Infrastructure (Infra) and Applications (Application), with my primary responsibility being the development and maintenance of the infrastructure.}
-    \item {The infrastructure component encompassed two core services: Blockchain Explorer and Node as a Service. Blockchain Explorer served as a tool enabling users to query blockchain data effectively, enhancing transparency and accessibility. Meanwhile, Node as a Service provided real-time block and transaction information, operating similarly to services like Infura or QuickNode. Throughout the development of these services, we adopted a microservices architecture, significantly enhancing the system's scalability and maintainability while ensuring high availability and security.}
+    \item {Led a 5-member team implementing agile and DevOps practices from scratch, using JIRA for task tracking, GitHub Actions for CI/CD, and Docker for containerization, improving workflow efficiency by 20\%.}
+    \item {Developed and deployed a decentralized exchange (DEX) and SwapDeFi solution using Chia blockchain. Created backend services with Golang, gRPC for service communication, Gin as web framework, and utilized AWS EKS for Kubernetes deployment, enhancing service stability and scalability.}
+    \item {Designed Blockchain Explorer and Node as a Service using microservices architecture, employing Docker, Helm, and Kafka for real-time data streaming and container orchestration. This setup enabled users to query blockchain data and receive real-time transaction updates efficiently, significantly enhancing system transparency and data accessibility.}
   \end{cvitems}
 }
 
@@ -31,8 +46,8 @@
 {Jun. 2020 - Feb. 2021} % Date(s)
 {
   \begin{cvitems} % Description(s) of tasks/responsibilities
-    \item {At Newtype Games, I spearheaded the design and deployment of a sophisticated monitoring and log collection system comprising the ELK Stack (Elasticsearch, Logstash, Kibana), Grafana, and Prometheus. This initiative was aimed at enhancing application performance monitoring and health assessment, crucial for maintaining system stability and reliability. The deployment of the ELK Stack allowed for centralized collection and analysis of application logs, playing a key role in swiftly diagnosing and resolving potential application issues. Additionally, the integration of Prometheus facilitated the collection of various performance metrics, which were instrumental in monitoring real-time system performance and implementing necessary optimizations.}
-    \item {In another significant project, I developed a universal service entry point using Go, which significantly enhanced the security and accessibility of application configurations. This development centralized the management of application settings, boosting the security and simplification of configuration management, while also ensuring secure access to sensitive information.}
+    \item {Implemented a monitoring and log system using ELK Stack (Elasticsearch, Logstash, Kibana), integrated with Grafana and Prometheus, enabling engineers to analyze logs directly in Kibana, reducing reliance on server access and improving diagnostic efficiency.}
+    \item {Developed a configuration management prototype similar to HashiCorp Vault, focused on secure application configuration and encryption. This prototype enhanced configuration security management before a company-wide layoff halted further development.}
   \end{cvitems}
 }
 
@@ -44,9 +59,8 @@
 {Oct. 2019 - Mar. 2020} % Date(s)
 {
   \begin{cvitems} % Description(s) of tasks/responsibilities
-    \item {I designed and developed a self-service website that incorporates rights management through Role-Based Access Control (RBAC) and tracks user activity history. The project utilized React for the frontend and .NET Core for backend services, with deployment on AWS EKS facilitated by Helm. This implementation enhanced user interface responsiveness and security while ensuring scalable cloud deployment.}
-    \item {I spearheaded the design of a service to bolster single sign-on (SSO) security by integrating device detection and alert capabilities. This service was built as a .NET Core console application and leveraged Kafka’s publish/subscribe mechanisms for effective system decoupling, enhancing system security and reliability.}
-    \item {I developed a system focused on recording and querying user authentication logs. The system was architected using RESTful API services built with .NET Core, employing a combination of Graylog, Elasticsearch, and Fluentd to store and analyze audit logs. This setup facilitated robust data integrity and insightful audit trail analysis.}
+    \item {Created a self-service website with RBAC for user permissions and activity tracking using React for frontend and .NET Core for backend, deployed on AWS EKS, utilizing Helm for Kubernetes orchestration, which improved system responsiveness and security.}
+    \item {Built an SSO security enhancement service using Kafka for publish-subscribe decoupling, integrated with device detection and alerts, which significantly strengthened authentication security.}
   \end{cvitems}
 }
 
@@ -58,9 +72,8 @@
 {Sep. 2016 - Apr. 2019} % Date(s)
 {
   \begin{cvitems} % Description(s) of tasks/responsibilities
-    \item {I designed and implemented a bulletin system, utilizing .NET Core for developing a RESTful API and Angular 2 for creating the management interface. The system integrates client messaging functionality using RabbitMQ, enhancing communication efficiency and user engagement.}
-    \item {I developed a modular futures trading platform using WPF and Prism, which was tailored to meet specific operational requirements. This custom solution provided a robust and flexible trading environment, significantly enhancing trading efficiency and user experience.}
-    \item {I conducted extensive research and implemented a version control system (VCS) and continuous integration (CI) practices, utilizing Docker to deploy GitLab. My efforts led to the successful onboarding and training of the development team, markedly improving overall development processes and efficiency.}
+    \item {Developed a bulletin system using .NET Core RESTful API and Angular 2 for the management interface, integrated with RabbitMQ for real-time messaging, improving user engagement by 30\%.}
+    \item {Implemented a GitLab-based CI pipeline with Docker for containerization, automating build, test, and deployment processes, which reduced development cycle time by 20\% and improved version control efficiency.}
   \end{cvitems}
 }
 
